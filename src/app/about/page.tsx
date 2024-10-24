@@ -5,6 +5,8 @@ import Image, { StaticImageData } from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
 import Navbar from '@/src/components/Navbar'
 import Footer from '@/src/components/Footer'
+
+// Photos
 import badmintonPhoto from '@/public/images/badminton_photo.jpg'
 import skiPhoto from '@/public/images/ski_photo.jpg'
 import uwLogo from '@/public/images/uw_logo.jpg'
@@ -122,8 +124,8 @@ const items: Items = {
       description: (
         <>
           I love the snow and everything related to it! I have been skiing since 4 years old and started picking up snowboarding last year thanks to my coach
-          <a href="https://www.instagram.com/leemms_/" target="_blank" rel="noreferrer" className="text-purple-300 hover:text-purple-100 transition-colors"> ❤️</a>.
-          {"I'm"} certified by the Professional Ski Instructors of America, have taught at the Summit at Snoqualmie, and have raced for Team Alpental Snoqualmie. Always looking for new places to explore!
+          <a href="https://emmalee04.github.io/" target="_blank" rel="noreferrer" className="text-purple-300 hover:text-purple-100 transition-colors">❤️</a>. 
+          {" I'm"} certified by the Professional Ski Instructors of America, have taught at the Summit at Snoqualmie, and have raced for Team Alpental Snoqualmie. Always looking for new places to explore!
         </>
       ),
       image: skiPhoto,

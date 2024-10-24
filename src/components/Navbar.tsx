@@ -7,8 +7,8 @@ export default function Navbar() {
         <li><Link href="/" className="hover:text-purple-300 transition-colors">Home</Link></li>
         <li><Link href="/about" className="hover:text-purple-300 transition-colors">About</Link></li>
         <li><Link href="/projects" className="hover:text-purple-300 transition-colors">Projects</Link></li>
-        {/* <li><Link href="/eagle" className="hover:text-purple-300 transition-colors">Eagle</Link></li>
-        <li><Link href="/travel" className="hover:text-purple-300 transition-colors">Travel</Link></li> */}
+        <li><Link href="/eagle" className="hover:text-purple-300 transition-colors">Eagle</Link></li>
+        {/* <li><Link href="/travel" className="hover:text-purple-300 transition-colors">Travel</Link></li> */}
       </ul>
     </nav>
   )
