@@ -7,5 +7,5 @@ const nextConfig = {
     },
     // Remove basePath since this is a user site
 }
-  
+
 export default nextConfig
